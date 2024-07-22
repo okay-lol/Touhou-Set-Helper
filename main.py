@@ -24,6 +24,8 @@ from pydub import AudioSegment
 from pydub.playback import play
 import threading
 
+# test
+
 ROOT_BG = "#282828"  # Constant for the background of the root element. A lighter grey color.
 FRAME_BG = "#181818"  # Constant for the background of certain frame elements. A darker grey color.
 ALL_SIZES = [5, 10, 15, 25, 50]  # Keeps track of legal set sizes
