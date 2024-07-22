@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jul 15 19:47:40 2024
+Created on Mon Jul 15, 9:47PM, 2024
 
 @author: okay lol
 """
@@ -1323,5 +1323,3 @@ except Exception as ex:
 # ----------------
 # --------
 # --
-
-# TODO : store images the code
