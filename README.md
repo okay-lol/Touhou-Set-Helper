@@ -35,12 +35,12 @@ Compilation gets insanely complicated really quickly as soon as anything at all 
 
 Anyway, if you're on Windows 10, just follow the steps below and hopefully it'll work. It might also work on Windows 11. If you're on MAC or Linux or something, then I'm very sorry.
 
-Step 1: Download and install miniconda. As of July 2024, you can use this link:
+Step 1: Click on the dropdown arrow connected to the green "Code" button toward the top of this page. Click on "Download ZIP".
+
+Step 2: Extract the contents using WinRAR or 7-zip. The only ones you need are main.py, easy_widgets.py, the sprites folder, and setup.py. Put them all in the same directory somewhere.
+
+Step 3: Download and install miniconda. As of July 2024, you can use this link:
 https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
-
-Step 2: Click on the dropdown arrow connected to the green "Code" button toward the top of the page. Click on "Download ZIP".
-
-Step 3: Extract the contents using WinRAR or 7-zip. The only ones you need are main.py, easy_widgets.py, the sprites folder, and setup.py. Put them all in the same directory somewhere.
 
 Step 4: Open the miniconda terminal. If "miniconda" doesn't bring it up, try "anaconda".
 
