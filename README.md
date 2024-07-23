@@ -1,3 +1,5 @@
+# Welcome
+
 This is a program designed to help make keeping track of touhou set attempts a lot easier and more convenient. 
 No more having to tab into a google sheets page and check a box after each attempt. Just press 2 or 3 on your keyboard and this program will do the rest, even if you aren't tabbed in.
 
@@ -21,11 +23,15 @@ Toggles for muting audio and changing the graph display are also implemented.
 
 Additionally, you can click on the check boxes, cap rate fraction, cap rate percentage, and streak, and the program will copy them to your clipboard as long as they aren't empty. This way, entering results into a spreadsheet or something is much less annoying.
 
-Unfortunately, the convenience it offers is canceled out by it being an absolute pain to install. I'll try to describe it here; hopefully it works for you.
+
+
+# Installation
+
+Unfortunately, lots of the convenience this program offers is cancelled out by it being an absolute pain to install. I'll try to describe it here; hopefully it works for you.
 
 First of all, this will probably only work for Windows computers. I run Windows 10, so if that's what you run then it should work fine.
 Otherwise, you're probably out of luck unless you already have extensive experience compiling programs and can troubleshoot the absolute hellscape that is terminal environments.
-Compilation gets insanely complicated real quick as soon as anything at all goes wrong — I'm not smart enough to be able to consistently do it on the OS I've been on for my whole life, much less on one I have no experience with.
+Compilation gets insanely complicated really quickly as soon as anything at all goes wrong — I'm not smart enough to be able to consistently do it on the OS I've been running for my whole life, much less on one I have no experience with.
 
 Anyway, if you're on Windows 10, just follow the steps below and hopefully it'll work. It might also work on Windows 11. If you're on MAC or Linux or something, then I'm very sorry.
 
