@@ -1,6 +1,6 @@
 # Welcome
 
-This is a program designed to help make keeping track of touhou set attempts a lot easier and more convenient. 
+This is a program designed to help you keep track of Touhou spellcard rates during sets.
 No more having to tab into a google sheets page and check a box after each attempt. Just press 2 or 3 on your keyboard and this program will do the rest, even if you aren't tabbed in.
 
 ![Picture of program](https://cdn.discordapp.com/attachments/1132881701580845186/1265162213556224041/image.png?ex=66a081a1&is=669f3021&hm=f25ad67f7f5c598cff88205b9ce3098cb15050185761d4532751bdc207057767&)
@@ -35,28 +35,44 @@ Compilation gets insanely complicated really quickly as soon as anything at all 
 
 Anyway, if you're on Windows 10, just follow the steps below and hopefully it'll work. It might also work on Windows 11. If you're on MAC or Linux or something, then I'm very sorry.
 
-Step 1: Click on the dropdown arrow connected to the green "Code" button toward the top of this page. Click on "Download ZIP".
+### Step 1:
 
-Step 2: Extract the contents using WinRAR or 7-zip. The only ones you need are main.py, easy_widgets.py, the sprites folder, and setup.py. Put them all in the same directory somewhere.
+Click on the dropdown arrow connected to the green "Code" button toward the top of this page. Click on "Download ZIP".
 
-Step 3: Download and install miniconda. As of July 2024, you can use this link:
+### Step 2:
+
+Extract the contents using WinRAR or 7-zip. The only ones you need are main.py, easy_widgets.py, the sprites folder, and setup.py. Put them all in the same directory somewhere.
+
+### Step 3:
+
+Download and install miniconda. As of July 2024, you can use this link:
 https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
 
-Step 4: Open the miniconda terminal. If "miniconda" doesn't bring it up, try "anaconda".
+### Step 4:
 
-Step 5: Create a python environment with python version 3.8. You can do this by typing the following into the miniconda terminal:
+Open the miniconda terminal. If "miniconda" doesn't bring it up, try "anaconda".
+
+### Step 5:
+
+Create a python environment with python version 3.8. You can do this by typing the following into the miniconda terminal:
 
 conda create -n myenv python=3.8
 
 If it asks you to confirm anything, enter "yes".
 
-Step 6: Activate your new conda environment. This can be done with the following command: conda activate myenv
+### Step 6:
 
-Step 7: Install cx_Freeze with the following command: pip install cx_Freeze
+Activate your new conda environment. This can be done with the following command: conda activate myenv
+
+### Step 7:
+
+Install cx_Freeze with the following command: pip install cx_Freeze
 
 If this goes wrong, double check you didn't make a typo. The capital F in "Freeze" is meant to be there. If it still doesn't work, then it looks like that's it. I'm sorry.
 
-Step 8: Unfortunately, this is where luck really comes into play. Try to run the following commands. Given how many there are, some of them will probably fail.
+### Step 8:
+
+Unfortunately, this is where luck really comes into play. Try to run the following commands. Given how many there are, some of them will probably fail.
 Certain ones can fail and it won't matter. Others are necessary to get the program working, so if they don't work for you then this is probably the end of the road. Again, I'm sorry.
 
 pip install tkinter
@@ -75,13 +91,17 @@ pip install pyaudio
 
 Again, if a few of them failed, it isn't necessarily the end of the world. Like I said, some of them can fail and it's fine. Step 10 will determine whether this is the case here.
 
-Step 9: Navigate to the path where you put the files from the ZIP file you downloaded earlier. Copy the path. It should look something like C:\Users\YourName\Documents\TouhouSets
+### Step 9:
+
+Navigate to the path where you put the files from the ZIP file you downloaded earlier. Copy the path. It should look something like C:\Users\YourName\Documents\TouhouSets
 
 Type "cd" into the conda terminal, then paste in the path you copied. If there are spaces in the names of any of the files, you may have to surround it in quotes.
 
 cd "C:/Users/YourName/Documents/Spellcard Sets"
 
-Step 10: This is where it either all comes together or all falls apart. If you did everything so far and luck was on your side, then this will all work out fine. Enter the following command into miniconda:
+### Step 10:
+
+This is where it either all comes together or all falls apart. If you did everything so far and luck was on your side, then this will all work out fine. Enter the following command into miniconda:
 
 python setup.py build
 
