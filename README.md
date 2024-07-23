@@ -56,7 +56,7 @@ Step 7: Install cx_Freeze with the following command: pip install cx_Freeze
 
 If this goes wrong, double check you didn't make a typo. The capital F in "Freeze" is meant to be there. If it still doesn't work, then it looks like that's it. I'm sorry.
 
-Step 8: Made it past Step 7? Great! Unfortunately, this is where luck really comes into play. Try to run the following commands. Given how many there are, some of them will probably fail.
+Step 8: Unfortunately, this is where luck really comes into play. Try to run the following commands. Given how many there are, some of them will probably fail.
 Certain ones can fail and it won't matter. Others are necessary to get the program working, so if they don't work for you then this is probably the end of the road. Again, I'm sorry.
 
 pip install tkinter
@@ -73,7 +73,7 @@ pip install threading
 
 pip install pyaudio
 
-If some of them failed, it isn't necessarily the end of the world. Like I said, some of them can fail and it's fine. Step 10 will determine whether this is the case for you.
+Again, if a few of them failed, it isn't necessarily the end of the world. Like I said, some of them can fail and it's fine. Step 10 will determine whether this is the case here.
 
 Step 9: Navigate to the path where you put the files from the ZIP file you downloaded earlier. Copy the path. It should look something like C:\Users\YourName\Documents\TouhouSets
 
@@ -94,6 +94,6 @@ If that doesn't work either, then unfortunately there's nothing I can help you w
 If it did work, then there's one last luck check in your way. Go into the newly generated "build" folder. Then in a folder called "exe.win-amd64-3.8", you should find an exe file called "main".
 Double-click the file to run it. If you get an error, then I'm sorry. You probably made it further than many others, but it just wasn't meant to be.
 
-If it did work, then congratulations! I'm truly happy for you. If you want, feel free to make a shortcut and name it something other than main. There's also a .ico file in the sprites folder that you can use. Anyway, that's about it. Hopefully this works for you. Best of luck!
+If it did work, then congratulations! I'm truly happy for you. If you want, feel free to make a shortcut and name it something other than main. There's also a .ico file in the sprites folder that you can use to change the icon so that it isn't the ugly default one that Windows uses. Anyway, that's about it. Hopefully this works for you. Best of luck!
 
 
