@@ -3,7 +3,7 @@
 This is a program designed to help you keep track of Touhou spellcard rates during sets.
 No more having to tab into a google sheets page and check a box after each attempt. Just press 2 or 3 on your keyboard and this program will do the rest, even if you aren't tabbed in.
 
-![Picture of program](https://imgur.com/a/XpSBmuI)
+![Picture of program](https://i.imgur.com/o2mJgbk.png)
 
 How does it work? Essentially, it listens to keystrokes and checks to see if 1, 2, or 3 is inputted.
 
